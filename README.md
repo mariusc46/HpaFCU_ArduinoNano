@@ -24,6 +24,7 @@ This repository is dedicated to the development of a DIY HPA (High Pressure Air)
 | **WiFi Hotspot**                                      |                                     |                                    | Yes                                |
 | **Eazy Flashable with Tasmotizer**                    |                                     |                                    | Yes                                |
 | **Feature Development**                               |                                     |                                    | Yes                                |
+| **Price**                                             | Free                                | [Soon on Cults3D](https://cults3d.com/en/users/mariusc/3d-models)                  | [Soon on Cults3D](https://cults3d.com/en/users/mariusc/3d-models)                  |
 
 ## Overview
 
@@ -42,9 +43,6 @@ Make sure the valve is wired correctly and is rated for 12V operation to ensure 
 3. Connect a **12V solenoid valve** (such as the one linked above or any other compatible 12V valve) to the controller.
 4. Power the system with an **11.1V LiPo battery**.
 5. Adjust settings such as **Dwell** and **Rate of Fire** based on your desired configuration.
-
-Advanced: soon on https://cults3d.com/en/users/mariusc/3d-models
-Expert: soon on https://cults3d.com/en/users/mariusc/3d-models
 
 ## Troubleshooting
 
