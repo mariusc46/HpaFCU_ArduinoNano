@@ -46,31 +46,25 @@ Make sure the valve is wired correctly and is rated for 12V operation to ensure 
 
 
 Here’s an updated and expanded version of your troubleshooting guide:
-
+Here’s an updated and expanded version of your troubleshooting guide:
+________________________________________
 Troubleshooting Guide
 If you are experiencing issues with the shooting mode (SAFE, SEMI, AUTO) not being selected or functioning as expected, please follow these steps:
-
-Check the Selector Switch
-
-Ensure that the firing mode selector switch is correctly connected and positioned. If the switch does not make proper contact or is misaligned, the system may fail to recognize the selected shooting mode.
-Example: If the system isn’t responding in SEMI or AUTO mode, check that the selector switch isn’t stuck in the SAFE position or improperly aligned.
-Verify Potentiometers
-
-If the Dwell or Rate of Fire settings aren’t adjusting as expected, confirm that the potentiometers are correctly connected and functional. Rotate each potentiometer to verify that it responds to changes.
-Tip: If there is excessive noise or instability when adjusting the potentiometers, check that all connections are secure and that capacitors are properly installed to help filter noise.
-Tracer Output Issues
-
-If the tracer output is not functioning as expected, ensure the wiring is correct. Miswiring could lead to unpredictable behavior or failure of the tracer to activate.
-Buzzer Not Beeping
-
-If the buzzer isn’t sounding when it should, verify its polarity. The positive side of the buzzer should connect to the Arduino. Incorrect polarity will prevent the buzzer from functioning.
-Check System Logs
-
-For further diagnosis, review the logs outputted from the Fire Control Unit (FCU) via the Arduino IDE. Set the baud rate to 115200 to match the system’s communication rate.
-Review Hardware Setup and Wiring Diagrams
-
-If issues persist, refer to the hardware setup and wiring diagrams to confirm that all components are correctly connected. Misaligned or improperly connected components can lead to mode selection and functionality issues.
-Capacitor and Noise Filtering
-
-Ensure that all connections are secure and that capacitors are installed as indicated. Properly positioned capacitors help filter out noise, which is especially important when adjusting potentiometers or experiencing intermittent issues.
+1.	Check the Selector Switch
+o	Ensure that the firing mode selector switch is correctly connected and positioned. If the switch does not make proper contact or is misaligned, the system may fail to recognize the selected shooting mode.
+o	Example: If the system isn’t responding in SEMI or AUTO mode, check that the selector switch isn’t stuck in the SAFE position or improperly aligned.
+2.	Verify Potentiometers
+o	If the Dwell or Rate of Fire settings aren’t adjusting as expected, confirm that the potentiometers are correctly connected and functional. Rotate each potentiometer to verify that it responds to changes.
+o	Tip: If there is excessive noise or instability when adjusting the potentiometers, check that all connections are secure and that capacitors are properly installed to help filter noise.
+3.	Tracer Output Issues
+o	If the tracer output is not functioning as expected, ensure the wiring is correct. Miswiring could lead to unpredictable behavior or failure of the tracer to activate.
+4.	Buzzer Not Beeping
+o	If the buzzer isn’t sounding when it should, verify its polarity. The positive side of the buzzer should connect to the Arduino. Incorrect polarity will prevent the buzzer from functioning.
+5.	Check System Logs
+o	For further diagnosis, review the logs outputted from the Fire Control Unit (FCU) via the Arduino IDE. Set the baud rate to 115200 to match the system’s communication rate.
+6.	Review Hardware Setup and Wiring Diagrams
+o	If issues persist, refer to the hardware setup and wiring diagrams to confirm that all components are correctly connected. Misaligned or improperly connected components can lead to mode selection and functionality issues.
+7.	Capacitor and Noise Filtering
+o	Ensure that all connections are secure and that capacitors are installed as indicated. Properly positioned capacitors help filter out noise, which is especially important when adjusting potentiometers or experiencing intermittent issues.
 By following these steps, you should be able to diagnose and resolve many common issues. For more advanced support, consult your system’s technical manual or reach out to the manufacturer.
+
