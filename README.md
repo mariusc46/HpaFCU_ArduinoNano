@@ -44,15 +44,33 @@ Make sure the valve is wired correctly and is rated for 12V operation to ensure 
 4. Power the system with an **11.1V LiPo battery**.
 5. Adjust settings such as **Dwell** and **Rate of Fire** based on your desired configuration.
 
-## Troubleshooting
 
-If you are experiencing issues where the shooting mode (SAFE, SEMI, AUTO) is not being selected or working as expected, try the following:
+Here’s an updated and expanded version of your troubleshooting guide:
 
-- **Check the Selector Switch**: Ensure that the firing mode selector switch is properly connected and positioned. If the switch is not making good contact or isn't positioned correctly, the system might not recognize the selected shooting mode. 
-  - For example, if the system isn't responding in SEMI or AUTO mode, verify that the selector switch is not stuck in the SAFE position or misaligned.
+Troubleshooting Guide
+If you are experiencing issues with the shooting mode (SAFE, SEMI, AUTO) not being selected or functioning as expected, please follow these steps:
 
-- **Check Potentiometers**: If the **Dwell** or **Rate of Fire** settings aren't responding, make sure the potentiometers are connected correctly and functioning. Try rotating the potentiometer to confirm it is changing the settings as expected.
+Check the Selector Switch
 
-- **Tracer Output Issues**: If the tracer output is not behaving as expected, confirm the correct wiring.
+Ensure that the firing mode selector switch is correctly connected and positioned. If the switch does not make proper contact or is misaligned, the system may fail to recognize the selected shooting mode.
+Example: If the system isn’t responding in SEMI or AUTO mode, check that the selector switch isn’t stuck in the SAFE position or improperly aligned.
+Verify Potentiometers
 
-If you continue to experience problems, refer to the hardware setup and wiring diagrams to ensure all components are connected correctly.
+If the Dwell or Rate of Fire settings aren’t adjusting as expected, confirm that the potentiometers are correctly connected and functional. Rotate each potentiometer to verify that it responds to changes.
+Tip: If there is excessive noise or instability when adjusting the potentiometers, check that all connections are secure and that capacitors are properly installed to help filter noise.
+Tracer Output Issues
+
+If the tracer output is not functioning as expected, ensure the wiring is correct. Miswiring could lead to unpredictable behavior or failure of the tracer to activate.
+Buzzer Not Beeping
+
+If the buzzer isn’t sounding when it should, verify its polarity. The positive side of the buzzer should connect to the Arduino. Incorrect polarity will prevent the buzzer from functioning.
+Check System Logs
+
+For further diagnosis, review the logs outputted from the Fire Control Unit (FCU) via the Arduino IDE. Set the baud rate to 115200 to match the system’s communication rate.
+Review Hardware Setup and Wiring Diagrams
+
+If issues persist, refer to the hardware setup and wiring diagrams to confirm that all components are correctly connected. Misaligned or improperly connected components can lead to mode selection and functionality issues.
+Capacitor and Noise Filtering
+
+Ensure that all connections are secure and that capacitors are installed as indicated. Properly positioned capacitors help filter out noise, which is especially important when adjusting potentiometers or experiencing intermittent issues.
+By following these steps, you should be able to diagnose and resolve many common issues. For more advanced support, consult your system’s technical manual or reach out to the manufacturer.
