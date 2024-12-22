@@ -24,7 +24,7 @@ This repository is dedicated to the development of a DIY HPA (High Pressure Air)
 | **WiFi Hotspot**                                      |                                     |                                    | Yes                                |
 | **Eazy Flashable with Tasmotizer**                    |                                     |                                    | Yes                                |
 | **Feature Development**                               |                                     |                                    | Yes                                |
-| **Price**                                             | Free                                | [Soon on Cults3D](https://cults3d.com/en/3d-model/various/hpa-diy-controller-advanced-version)                  | [Soon on Cults3D](https://cults3d.com/en/3d-model/various/hpa-diy-controller-expert-version)                  |
+| **Price**                                             | Free                                | [Here!](https://cults3d.com/en/3d-model/various/hpa-diy-controller-advanced-version)                  | [Here!](https://cults3d.com/en/3d-model/various/hpa-diy-controller-expert-version)                  |
 
 ## Overview
 
