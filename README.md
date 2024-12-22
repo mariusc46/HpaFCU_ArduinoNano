@@ -24,7 +24,7 @@ This repository is dedicated to the development of a DIY HPA (High Pressure Air)
 | **WiFi Hotspot**                                      |                                     |                                    | Yes                                |
 | **Eazy Flashable with Tasmotizer**                    |                                     |                                    | Yes                                |
 | **Feature Development**                               |                                     |                                    | Yes                                |
-| **Price**                                             | Free                                | [Soon on Cults3D](https://cults3d.com/en/users/mariusc/3d-models)                  | [Soon on Cults3D](https://cults3d.com/en/users/mariusc/3d-models)                  |
+| **Price**                                             | Free                                | [Soon on Cults3D](https://cults3d.com/en/3d-model/various/hpa-diy-controller-advanced-version)                  | [Soon on Cults3D](https://cults3d.com/en/3d-model/various/hpa-diy-controller-expert-version)                  |
 
 ## Overview
 
@@ -44,8 +44,8 @@ Make sure the valve is wired correctly and is rated for 12V operation to ensure 
 4. Power the system with an **11.1V LiPo battery**.
 5. Adjust settings such as **Dwell** and **Rate of Fire** based on your desired configuration.
 
+Tracer demo: •	Tracer demo: https://www.youtube.com/shorts/O8T2DLfdGJM 
 
-Here’s an updated and expanded version of your troubleshooting guide:
 Here’s an updated and expanded version of your troubleshooting guide:
 ________________________________________
 Troubleshooting Guide
